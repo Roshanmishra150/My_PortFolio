@@ -1,0 +1,35 @@
+.folioname{
+    padding-left: 60px;
+}
+.folioname span{
+    color: red;
+}
+.links :hover{
+    color: tomato;
+}
+.navbar_full{
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    font-weight: 600;
+    background: rgb(255, 255, 255,0.5);
+}
+.customnavlink{
+    color: #272525;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.customnavlink:hover{
+    color: #df2e2e;
+}
+.togel{
+    align-content: center;
+}
+.resume a{
+    color: black;
+}
+.resume a:hover{
+    color: tomato;
+    text-decoration: none;
+}

@@ -1,0 +1,4 @@
+.Card:hover{
+    box-shadow: 2px 2px 9px 2px rgb(231, 64, 64);
+    transition: 1s;
+} 

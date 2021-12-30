@@ -1,0 +1,38 @@
+.about{
+    color: white;
+    height: 800px;
+    margin-top: 50px;
+    padding-top: 40px;
+    margin-bottom: 200px;
+}
+.header{
+    text-decoration: overline;
+    display: flex;
+    justify-content: center;
+    color: tomato;
+}
+.about_text{
+    color: black;
+    padding-left: 25px;
+    text-align:justify;
+    text-justify:auto;
+    font-size: 20px;
+}
+.about_img img{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    height: 25pc;
+    width: 400px;
+    border-radius: 50%;
+}
+.about_img{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width:400px) {
+    .about_text{
+        padding-right: 25px;
+    }
+
+}

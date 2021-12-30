@@ -1,0 +1,10 @@
+.project{
+    padding-top: 6px;
+    padding-bottom: 50px;
+    text-decoration: overline;
+    text-decoration-style: solid;
+    color: tomato;
+}
+/* @media only and (max-width:400px) {
+    
+} */

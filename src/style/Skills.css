@@ -1,0 +1,113 @@
+.full {
+    padding-top: 70px;
+    margin-bottom: 100px;
+}
+.range_box{
+    height: 1vh;
+    width: 94%;
+    background-color: rgb(221, 220, 220);
+}
+.header_name{
+    padding-top: 0px;
+    padding-bottom: 75px;
+    text-decoration: overline;
+    text-decoration-style: solid;
+    display: flex;
+    justify-content: center;
+    color: tomato;
+}
+.header_name h3{
+    margin-bottom: 200px;
+    padding-bottom: 50px;
+}
+.header_name h3 pre{
+    font-style: bold;
+    font-weight: bold;
+    font-weight: 100;
+}
+.range_fill_html{
+    margin-top: -8px;
+    height: 1vh;
+    background-color: rgb(211, 10, 10); 
+    animation: animatehtml 5s forwards;
+}
+@keyframes animatehtml{
+    0% {width: 0%;}
+    100% {width: 90%;}
+}
+.range_fill_css{
+    margin-top: -8px;
+    height: 1vh;
+    background-color: rgb(211, 10, 10); 
+    animation: animatecss 5s forwards;
+}
+@keyframes animatecss{
+    0% {width: 0%;}
+    100% {width: 70%;}
+}
+.range_fill_js{
+    margin-top: -8px;
+    height: 1vh;
+    background-color: rgb(211, 10, 10); 
+    animation: animatejs 5s forwards;
+}
+@keyframes animatejs{
+    0% {width: 0%;}
+    100% {width: 47%;}
+}
+.range_fill_react{
+    margin-top: -8px;
+    height: 1vh;
+    background-color: rgb(211, 10, 10); 
+    animation: animatereact 5s forwards;
+}
+@keyframes animatereact{
+    0% {width: 0%;}
+    100% {width: 60%;}
+}
+.range_fill_mdb{
+    margin-top: -8px;
+    height: 1vh;
+    background-color: rgb(211, 10, 10); 
+    animation: animatemdb 5s forwards;
+}
+@keyframes animatemdb{
+    0% {width: 0%;}
+    100% {width: 30%;}
+}
+.range_fill_php{
+    margin-top: -8px;
+    height: 1vh;
+    background-color: rgb(211, 10, 10); 
+    animation: animatephp 5s forwards;
+}
+@keyframes animatephp{
+    0% {width: 0%;}
+    100% {width: 40%;}
+}
+.range_fill_c{
+    margin-top: -8px;
+    height: 1vh;
+    background-color: rgb(211, 10, 10); 
+    animation: animatec 5s forwards;
+}
+@keyframes animatec{
+    0% {width: 0%;}
+    100% {width: 40%;}
+}
+.range_fill_py{
+    margin-top: -8px;
+    height: 1vh;
+    background-color: rgb(211, 10, 10); 
+    animation: animatepy 5s forwards;
+}
+@keyframes animatepy{
+    0% {width: 0%;}
+    100% {width: 80%;}
+}
+@media only screen and (max-width:400px) {
+    .header_name {
+        padding-top: 350px;
+    }
+    
+}

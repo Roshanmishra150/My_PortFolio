@@ -1,0 +1,44 @@
+.social_screen{
+    position:sticky;
+    position: fixed;
+    margin-top: -655px;
+    
+    float: right;
+    margin-left: 95%;
+}
+.social_screen a{
+    margin-bottom: 20px;
+}
+.social_screen a i img:hover{
+    /* width: 0px; */
+    /* margin-left: 110px; */
+    box-shadow: -4px 6px 6px 4px rgb(200, 202, 196);
+}
+@media only screen and (max-width: 400px) {
+    .social_screen {
+        position:sticky;
+    position: fixed;
+    margin-top: -155%;
+    /* padding-left: 0px; */
+    float: right;
+    margin-left: 86%;
+    }
+  }
+
+
+/* .App {
+color: var(--text-primary);
+background-color: var(--background);
+font-size: large;
+font-weight: bold;
+padding: 20px;
+height: calc(100vh - 40px);
+transition: all .5s;
+}
+button {
+color: var(--text-primary);
+background-color: var(--background);
+border: 2px var(--text-primary) solid;
+float: right;
+transition: all .5s;
+} */
